@@ -5,8 +5,7 @@ define('CONTROLLER', 'controllers/');
 
 
 require(VIEW . 'header.php');
-require(VIEW . 'vcard.php');
-require(VIEW . 'stock.php');  
+require(VIEW . 'vcard.php'); 
 require(VIEW . 'footer.php');
 
 ?>
