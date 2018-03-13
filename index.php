@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Php minichat</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-</head>
+<?php
 
-<body>
-  <div>
-    <section>
-      <form action="" method="POST">
-      </form>
-    </section>
-  </div>
-</body>
-</html>
+define('VIEW', 'views/');
+define('CONTROLLER', 'controllers/');
+
+
+require(VIEW . 'header.php');
+require(VIEW . 'vcard.php');
+require(VIEW . 'stock.php');  
+require(VIEW . 'footer.php');
+
+?>
