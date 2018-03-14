@@ -1,11 +1,28 @@
 <?php
+define('VIEW', 'views/');
+define('CONTROLLER', 'controllers/');
+define('MODEL', 'model/');
 
-if (isset($_GET['action'])) {
-    $action = 'défault';
-} else {
-    $action = $_GET['action'];
+// FONCTIONS
+
+function present()
+{
+    require(VIEW . 'presentation.php');
 }
-//  structure ternaire équivalent à :
-// $action = isset($_GET['action']) ? htmlentities($_GET['action']) : 'default';
 
+function stock()
+{
+    require(VIEW . 'stock.php');
+}
+
+function stock_item()
+{
+    require(VIEW . 'stock-item.php');
+}
+
+function contact()
+{
+    require(VIEW . 'contact.php');
+
+}
  ?>

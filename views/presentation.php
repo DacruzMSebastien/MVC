@@ -1,21 +1,8 @@
-<?php
-include("header.php");
- ?>
 
 
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Didier Motte</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
 <div class="present">
 <p class="title">Didier Motte</p>
-<img src="assets/img/didier-motte.png">
+<img src="<?= VIEW . '/assets/img/didier-motte.png' ?>" alt="Didier Motte" width="300" height="300">
 <p><h2>Les meubles ont une histoire, authentique.</h2></p>
 
 <p>Toujours à la recherche de l’extra-ordinaire, de l’insolite, fasciné par la « petite » histoire du monde, celle des métiers d’autrefois,
@@ -56,8 +43,3 @@ include("header.php");
 
 
 </div>
-
-<?php
-include("footer.php");
- ?>
-</body>

@@ -1,12 +1,59 @@
 body {
   background-image: url("../img/background.jpg");
+}
 
+p {
+  font-size: 13px;
 }
 
 h2 {
   font-size: 15px;
   font-style: italic;
 }
+
+h3 {
+  font-size: 13px;
+  font-style: italic;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  font-size: 10px;
+  background-color: #272727;
+  color: white;
+}
+
+header {
+  padding: 30px;
+  font-size: 10px;
+  background-color: #272727;
+  color: white;
+}
+
+.nav-acc {
+  color: white;
+  border: 2px solid white;
+  padding: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-acc:hover{
+  color: yellow;
+  border: 2px solid yellow;
+
+}
+
+.nav {
+  float: right;
+  background-color: white;
+  color: #272727;
+  border:  1px solid black;
+  text-decoration: none;
+  padding: 5px;
+}
+
 
 .vcard {
   background-color: white;
@@ -29,7 +76,12 @@ h2 {
   color: white;
   padding: 10px;
   border-radius: 4px;
+}
 
+.bouton:hover {
+  background-color: white;
+  color: #272727;
+  border:  1px solid black;
 }
 
 .title {
@@ -41,22 +93,41 @@ h2 {
 }
 
 .present, .stock, .contact {
-  width: 35%;
+  width: 65%;
   margin:auto;
   background-color: #F5F5DC;
   padding: 20px;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  /* margin-top: 20px; */
 }
 
-.stock {
+
+.col-right {
+  margin: 900px;
+  width: 30%;
+  background-color: #F5F5DC;
+  padding: 20px;
   text-align: center;
-  margin-bottom: 20vh;
+  margin-top: 10vh;
+  margin-bottom: 50vh;
 }
 
-footer,header {
-  padding: 30px;
+.img-item {
+  margin: 15px;
+  float: left;
+  padding: 10px;
   text-align: center;
-  font-size: 10px;
-  background-color: #272727;
-  color: white;
+  width: 55%;
+  background-color: white;
+}
+
+.bg-img {
+  box-sizing: border-box;
+  width: 15%;
+  border : 4px solid #272727;
+  margin-left: 2vh;
+  margin-bottom: 5vh;
 
 }

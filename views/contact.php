@@ -1,6 +1,4 @@
-<?php
-include("header.php")
- ?>
+
 
  <!DOCTYPE html>
  <html>
@@ -22,6 +20,3 @@ include("header.php")
  <p>Belgique.</p>
  <p>Retrouvez nos mises à jour en vous abonnant à notre page Facebook</p>
 </div>
-<?php
-include("footer.php")
- ?>
