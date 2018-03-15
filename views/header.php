@@ -10,7 +10,7 @@
 <div>
     <header>
       <p><a href="index.php" class="nav-acc">Accueil</a></p>
-      <p>Antiquités - Déco - Aménagements d'intérieur </p>
+      <p><i>Antiquités - Déco - Aménagements d'intérieur</si></p>
       <a href="index.php?action=presentation" class="nav">Présentation</a>
       <a href="index.php?action=stock" class="nav">Stock</a>
       <a href="index.php?action=contact" class="nav">Contact</a>

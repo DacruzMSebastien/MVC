@@ -25,4 +25,3 @@ function contact()
     require(VIEW . 'contact.php');
 
 }
- ?>

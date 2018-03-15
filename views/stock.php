@@ -2,14 +2,14 @@
 <div>
   <section class="stock">
   <form action="" method="GET">
-    <p>Rechercher dans notre stock</p>
+    <p><i><b>Rechercher dans notre stock</b></i></p>
     <input type="text" name="antiquite" placeholder ="Table, Bureau, Comptoir,..">
     <input type="submit" name="recherche" value="Rechercher">
   </form>
   </section>
 </div>
 
-<div>
+<div class="mrgn">
   <article>
   <div>
     <a href="index.php?action=stock-item"><img src="<?=VIEW . 'assets/img/comptoir.jpg'?>" alt="comptoir" class="bg-img"></a>
@@ -26,6 +26,14 @@
     <a href=""><img src="<?=VIEW . 'assets/img/pigeonnier.jpg'?>" alt="pigeonnier" class="bg-img"></a>
     <a href=""><img src="<?=VIEW . 'assets/img/placards-couvent.jpg'?>" alt="placards-couvent" class="bg-img"></a>
     <a href=""><img src="<?=VIEW . 'assets/img/vitrine-chromee.jpg'?>"alt="vitrine chromee" class="bg-img"></a>
+  </div>
+  <div>
+    <ul id="pagination-flickr">
+      <li class="previous-off">« Précédent</li>
+      <li class="active">1</li>
+      <li><a href="index.php?action=stock">2</a></li>
+      <li class="next"><a href="index.php?action=stock">Suivant »</a></li>
+    </ul>
   </div>
 
   </article>

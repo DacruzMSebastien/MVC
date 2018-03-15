@@ -10,7 +10,7 @@
     <p>Superbe comptoir de réception d’hôtel en chêne avec ses deux côtés galbés.
            L’intérieur se présente avec une tablette et deux tiroirs avec serrures et clés dans la ceinture.
            Très belle qualité d’ébénisterie.</p>
-     <h3>Dimensions</h3>
+    <h3>Dimensions</h3>
     <p>largeur: 214cm x hauteur: 103cm x profondeur: 73cm</p>
     <h3>Status</h3>
     <p>en stock</p>
